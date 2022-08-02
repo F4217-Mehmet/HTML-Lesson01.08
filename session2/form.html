@@ -17,6 +17,9 @@
             border: 5px solid darkorange;
             color: black;
         }
+        #yorum{
+            resize: none;
+        }
     </style>
     
 </head>
@@ -128,11 +131,35 @@
                 <option value="Kadayıf">Kadayıf</option>
             </optgroup>
             
-
-
         </select>
     </div>
+    <div>
+<label for="yorum">Yorum</label>
+<textarea name="girilen_yorum" id="yorum" placeholder="yorum lütfen"></textarea>
+<input type="text" name="yorum" id="">
 
+    </div>
+<div>
+    <label for="input browser">Browsers:</label>
+    <input type="text" name="Kullanılan browser" id="input browser" list="browsers">
+    <datalist id="browsers">
+        <option value="Firefox"></option>
+        <option value="Explorer"></option>
+        <option value="Mozilla"></option>
+    </datalist>
+    
+</div>
+<br><br>
+<div>
+    <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+        <label for="fname">İsim</label>
+        <input type="text" name="isim" id="fname">
+        <br>
+        <label for="sname">Soyisim</label>
+        <input type="text" name="soyisim" id="sname">
+    </fieldset>
+</div>
 
 
         <br><br><br><br>
