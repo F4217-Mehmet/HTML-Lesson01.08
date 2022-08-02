@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formlar</title>
+    
 </head>
 <body>
     <h1>Welcome to Clarusway</h1>
+    
 
     <form action="result.html" method="get">
         <div>
@@ -19,12 +21,13 @@
         <label for="lname">Soyadınızı girin:</label>
         
         <input type="text" name="soyisim" id="lname" placeholder="Lütfen isminizi giriniz..." required>
+        
     </div>
 
     <div>
 
 <label for="sifre">Parolanızı girin:</label>
-<input type="password" name="Girilen Parola" id="sifre">
+<input type="password" name="Girilen Parola" id="sifre" minlength="8">
 
 
     </div>
@@ -49,10 +52,21 @@
         <label for="at">at</label>
 
     </div>
+    <div>
+        <label for="age">Yaş:</label>
+        <input type="number" name="Girilen yaş" id="age" min="18">
+    </div>
+
+    <div>
+        <label for="search">Ara:</label>
+        <input type="search" name="Aranan kelime" id="search" maxlength="20">
+    </div>
 
 
         <br><br><br><br>
         <input type="submit" value="Gönder">
+        <br><br><br>
+        <input type="reset" value="Sıfırla">
 
     </form>
 </body>
