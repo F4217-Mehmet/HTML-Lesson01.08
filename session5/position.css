@@ -1,0 +1,22 @@
+.main{
+    width: 100%;
+    background-color: aqua;
+    height: 1000px;
+    margin: 30px;
+    padding: 5px;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
