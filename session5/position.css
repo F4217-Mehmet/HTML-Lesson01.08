@@ -4,19 +4,33 @@
     height: 1000px;
     margin: 30px;
     padding: 5px;
+    position: relative;
 }
 .box1{
     width: 100px;
     height: 100px;
     background-color: magenta;
+    /* width: 90%; */
+    position: relative;
+    border-radius: 20px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
 }
 .box2{
     width: 100px;
     height: 100px;
     background-color: purple;
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+    z-index: 2;
 }
 .box3{
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.288);
+    position: relative;
+    top: 155px;
+    left: 50px;
 }
