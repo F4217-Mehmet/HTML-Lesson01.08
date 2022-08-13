@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    /* background-color: darkgreen; */
+}
+.abs{
+    background-color: aqua;
+    width: 10cm;
+}
+.div2{
+    background-color: chocolate;
+    width: 80%;
+    height: 50%;
+}
+.div3{
+    background-color: yellow;
+    width: 50%;
+    height: 25%;
+}
+.div4{
+    background-color: purple;
+    width: 50vw;
+}
+.div5{
+    font-size: 1em;                  16px 
+
+}
+.div6{
+    font-size: 2em;                  32 px
+}
+.div7{
+    font-size: 3em;                  96 px
+}
+.div8{
+    /* font-size: 1rem;                   :/bu kısım olmadı */
+
+}
+.div9{
+    font-size: 4rem;                  
+}
+.div10{
+    font-size: 3rem;                  
+}
